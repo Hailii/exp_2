@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="4dp"
+            android:text="Open..." />
+        <TextView
+            android:gravity="right"
+            android:padding="4dp"
+            android:text="Ctrl-O" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="4dp"
+            android:text="Save..." />
+        <TextView
+            android:gravity="right"
+            android:padding="4dp"
+            android:text="Ctrl-S" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="4dp"
+            android:text="Save As..." />
+        <TextView
+            android:gravity="right"
+            android:padding="4dp"
+            android:text="Ctrl-Shift-S" />
+    </TableRow>
+    <View
+        android:layout_height="2dp"
+        android:background="#FF909090" />
+    <TableRow>
+        <TextView
+            android:padding="4dp"
+            android:text="X" />
+        <TextView
+            android:padding="4dp"
+            android:text="Import..." />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:padding="4dp"
+            android:text="X" />
+        <TextView
+            android:padding="4dp"
+            android:text="Export..." />
+        <TextView
+            android:gravity="right"
+            android:padding="4dp"
+            android:text="Ctrl-E" />
+    </TableRow>
+    <View
+        android:layout_height="2dp"
+        android:background="#FF909090" />
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:padding="4dp"
+            android:text="Quit" />
+    </TableRow>
+</TableLayout>
